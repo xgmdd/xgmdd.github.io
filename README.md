@@ -4,7 +4,7 @@
 
 [word cloud](https://xgmdd.github.io/homework1/cloud1984.html)
 
-[map show](https://xgmdd.github.io/homework1/map.html)
+[map show](https://xgmdd.github.io/homework1/geo_line_plane.html)
 
 [charts combination](https://xgmdd.github.io/homework1/comb.html)
 
