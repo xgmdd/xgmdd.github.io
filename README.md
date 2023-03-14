@@ -3,6 +3,6 @@
 ## 1.作业1
 word cloud
 
-[作业1链接](xgmdd.github.io/homework1/cloud1984.html)
+[作业1链接](www.xgmdd.github.io/homework1/cloud1984.html)
 ## 2.作业2
 description
