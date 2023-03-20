@@ -9,4 +9,4 @@
 [charts combination](https://xgmdd.github.io/homework1/comb.html)
 
 ## 2.作业2
-description
+[figure relations](https://xgmdd.github.io/homework2/1984rel.html)
