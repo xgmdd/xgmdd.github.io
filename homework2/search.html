@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My-search</title>
+		<style>
+			input::placeholder{
+				color: aqua;
+			}
+			form{
+				text-align: center;
+				font-size: 72;
+				
+			}
+			h1{
+				text-align: center;
+				font-size: 72;
+			}
+			img{
+				height:30px;
+			}
+			.slc{
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>SEARCH</h1>
+		<form action="https://www.bing.com/search" method="get" id="fm">
+			<input type="text" id="bx" name="q" placeholder="enter sth (use bing by default)" >
+			<input type="submit" value="submit">
+			<!--点击“提交”按钮后，注意浏览器地址栏的变化-->
+			<!--对照：百度搜索时，浏览器地址栏的变化-->
+		</form>
+		<div style="text-align: center;font-size: 48;" class="slc">
+			<input type="radio" name="slc">bing</input><img src="https://xgmdd.github.io/imgs/bglg.png"></img>
+			<input type="radio" name="slc" onclick="changeSearch()">baidu</input><img src="https://xgmdd.github.io/imgs/bdlg.png"></img>
+		</div>
+		<script>
+			var stt=1;
+			fm = document.getElementById('fm');
+			bx = document.getElementById('bx');
+			function changeSearch(){
+				if(stt){
+					fm.action="https://www.baidu.com/s";
+					bx.name="wd";
+					stt=0;
+				}
+				else{
+					fm.action="https://www.bing.com/search";
+					bx.name="q";
+				}
+			}
+		</script>
+	</body>
+</html>
