@@ -20,4 +20,15 @@
 作业连接：[charts combination](https://xgmdd.github.io/homework1/comb.html)
 
 ## 2.作业2
-[figure relations](https://xgmdd.github.io/homework2/1984rel.html)
+
+### 1）搜索页面设计
+
+作业描述：可切换搜索引擎搜索关键词（baidu/bing）
+
+作业连接：[switch searching](https://xgmdd.github.io/homework2/search.html)
+
+### 2）人物共现展示
+
+作业描述：展现《1984》中译本中各个人物同一段共现频率的统计
+
+作业连接：[figure relations](https://xgmdd.github.io/homework2/1984rel.html)
