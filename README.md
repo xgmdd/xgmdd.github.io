@@ -29,13 +29,13 @@
 
 ### 2）人物共现展示
 
-作业描述：展现《1984》中译本中各个人物同一段共现频率的统计
+作业描述：绘制网页展现《1984》中译本中各个人物同一段共现频率的统计图
 
 作业连接：[figure relations](https://xgmdd.github.io/homework2/1984rel.html)
 
 ### 3）页面展示
 
-作业描述：展现一首创作的关于老北京小吃的诗歌
+作业描述：展现一首创作的关于老北京小吃的诗歌（以为成了作业是三个页面）
 
 作业连接：[page show](https://xgmdd.github.io/homework2/page.html)
 
