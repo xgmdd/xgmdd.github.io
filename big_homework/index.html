@@ -3,6 +3,9 @@
     <title>大作业-北京地铁拥挤度分析</title>
     <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
             <style>
+                h1{
+                    text-align: center;
+                }
                 h2{
                     color: burlywood;
                     text-align: center;
@@ -12,14 +15,14 @@
                     width:70%;
                 }
                 p{
-                    text-align:center;
+                    text-align: center;
                 }
             </style>
 
 </head>
 <body>
     
-    <div id="intro" style="width: 1500px;background-color: white;margin-top: 0px;color: #cbe554;"> 
+    <div id="intro" style="width: 1500px;background-color:white;margin-top: 0px;color: #cbe554;"> 
         <h1>综合简介</h1><div>
         <h2>作业简介</h2>
         <p>本作业连续7天每5min抓取北京地铁各站、站间列车拥挤度数据，统计绘制可视化数据呈现</p>
@@ -34,7 +37,8 @@
         数据综合(点击链接查看更详细的动态图表)
     </h1>
         <h2>7日客流总量统计</h2>
-        <div align="center"><div id="788f9ea3508048c1bfe49e60fcbafc8a" class="chart-container" style="width:900px; height:500px; "></div></div>
+        <div align="center"><div id="3c958e46923a4fcabb37b8111704d298" class="chart-container" style="width:900px; height:500px; "></div>
+    </div>
         </div> 
         <div>
             <a href="./charts/wordcloud_opts.html"><h2>北京地铁站名分词统计词云</h2></a>
@@ -54,9 +58,9 @@
     </div>
     
     <script>
-        var chart_788f9ea3508048c1bfe49e60fcbafc8a = echarts.init(
-            document.getElementById('788f9ea3508048c1bfe49e60fcbafc8a'), 'light', {renderer: 'canvas'});
-        var option_788f9ea3508048c1bfe49e60fcbafc8a = {
+        var chart_3c958e46923a4fcabb37b8111704d298 = echarts.init(
+            document.getElementById('3c958e46923a4fcabb37b8111704d298'), 'light', {renderer: 'canvas'});
+        var option_3c958e46923a4fcabb37b8111704d298 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -79,7 +83,9 @@
                 728.21,
                 660.18,
                 1056.39,
-                1054.17
+                1054.17,
+                1044.54,
+                1034.95
             ],
             "realtimeSort": false,
             "showBackground": false,
@@ -186,7 +192,9 @@
                 "5-20",
                 "5-21",
                 "5-22",
-                "5-23"
+                "5-23",
+                "5-24",
+                "5-25"
             ]
         }
     ],
@@ -216,7 +224,7 @@
     "title": [
         {
             "show": true,
-            "text": "日客流总量",
+            "text": "total",
             "target": "blank",
             "subtarget": "blank",
             "padding": 5,
@@ -241,6 +249,6 @@
         }
     ]
 };
-        chart_788f9ea3508048c1bfe49e60fcbafc8a.setOption(option_788f9ea3508048c1bfe49e60fcbafc8a);
+        chart_3c958e46923a4fcabb37b8111704d298.setOption(option_3c958e46923a4fcabb37b8111704d298);
     </script>
 </body>
